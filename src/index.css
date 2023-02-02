@@ -29,6 +29,13 @@ body{
     line-height: 1.6;
     letter-spacing: 2px;
     word-spacing: 2px;
+    overflow: hidden;
+}
+
+.section-title{
+    font-family: "Cosi Azure", sans-serif;
+    font-size: 10rem;
+    line-height: 1;
 }
 
 .link-item{
@@ -51,10 +58,11 @@ body{
     width: 100%;
 }
 
-
-.hero-img{
-    width: 400px;
-    height: 400px;
+.hero-img,
+.project-right{
+    width: 40rem;
+    height: 40rem;
+    overflow: hidden;
 }
 
 .shutter{

@@ -13,7 +13,7 @@ const Navbar = () => {
                         <HashLink smooth to="#home" className="link-item">Home</HashLink>
                     </li>
                     <li>
-                        <HashLink smooth to="#home" className="link-item">Project</HashLink>
+                        <HashLink smooth to="#projects" className="link-item">Projects</HashLink>
                     </li>
                     <li>
                         <HashLink smooth to="#home" className="link-item">Skill</HashLink>

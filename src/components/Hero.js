@@ -13,7 +13,7 @@ const Hero = () => {
     useHoverEffect(heroImg, data.img1, data.img2)
 
     return (
-        <div className="flex items-center justify-center overflow-hidden relative mt-20">
+        <div className="flex items-center justify-center relative mt-20">
             <div className="hero-img" ref={heroImg}></div>
             <div className="shutter shutter-left">
                 <h1 className="headline-1">front-end</h1>
