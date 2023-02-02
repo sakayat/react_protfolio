@@ -1,13 +1,117 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'Cosi Azure';
+    src: url("./assest/font/CosiAzure-Bold.ttf");
+}
+:root {
+    --color-dark: #050505;
+    --color-light: #f7f7f7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body{
+    overflow-x: hidden;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.link-item{
+    position: relative;
+}
+
+.link-item::after{
+    content: "";
+    background-color: var(--color-light);
+    position: absolute;
+    height: 1px;
+    width: 0%;
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.link-item:hover:after{
+    width: 100%;
+}
+
+
+.hero-img{
+    width: 400px;
+    height: 400px;
+}
+
+.shutter{
+    position: absolute;
+    font-family: "Cosi Azure", sans-serif;
+    font-size: 10rem;
+}
+
+.shutter-left{
+    top: 0;
+    left: 0;
+}
+
+.shutter-right{
+    bottom: 0;
+    right: 0;
+}
+
+.app{
+    position: relative;
+}
+
+.noise{
+    background-image: url("./assest/img/noise.gif");
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -999;
+    opacity: 0.07;
+}
+
+.circle-left, .circle-right{
+    width: 1000px;
+    height: 1000px;
+    border: 1px dashed var(--color-light);
+    border-radius: 50%;
+    opacity: 0.2;
+    position: fixed;
+    z-index: -999;
+    animation: spin 90s linear infinite;
+}
+
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.circle-left{
+    top: 40%;
+    right: -20%;
+}
+
+.circle-right{
+    bottom: 40%;
+    left: -20%;
 }
