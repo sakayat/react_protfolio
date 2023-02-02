@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="909bcd30-96e7-41a0-a04e-ead84a74d32c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/SectionTitle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skill.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,7 @@
       <workItem from="1675253563684" duration="104000" />
       <workItem from="1675253686626" duration="5019000" />
       <workItem from="1675262429527" duration="3479000" />
-      <workItem from="1675273503599" duration="13097000" />
+      <workItem from="1675273503599" duration="15942000" />
     </task>
     <servers />
   </component>
