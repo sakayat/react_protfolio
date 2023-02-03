@@ -13,6 +13,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
+            <Navbar footerName/>
             <Footer />
             </div>
         </>

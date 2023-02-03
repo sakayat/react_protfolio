@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { useHoverEffect } from "../hook/usehoverEffect";
+import Button from "./Button";
 
 const Project = ({ project }) => {
 	const projectRightRef = useRef(null);
@@ -17,34 +18,10 @@ const Project = ({ project }) => {
 						<span key={i}>{tool}</span>
 					))}
 				</div>
-				<div className="link flex gap-10">
-					{project.liveLink && (
-						<a
-							href={project.liveLink}
-							target="_blank"
-							rel="noreferrer"
-							className=" uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-100 hover:text-black">
-							Live Site
-						</a>
-					)}
-					{project.frontEndLink && (
-						<a
-							href={project.frontEndLink}
-							target="_blank"
-							rel="noreferrer"
-							className=" uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-100 hover:text-black">
-							Front-End Site
-						</a>
-					)}
-					{project.backEndLink && (
-						<a
-							href={project.backEndLink}
-							target="_blank"
-							rel="noreferrer"
-							className=" uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-100 hover:text-black">
-							Back-End Site
-						</a>
-					)}
+				<div className="link flex flex-wrap gap-10">
+					{project.liveLink && <Button project={project} button={"Live Site"} />}
+					{project.frontEndLink && <Button project={project} button={"Front-End Site"} />}
+					{project.backEndLink && <Button project={project} button={"Back-End Site"} />}
 				</div>
 			</div>
 			<div className="project-right col-span-2 justify-self-end" ref={projectRightRef}></div>

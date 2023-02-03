@@ -22,6 +22,7 @@ const data = [
         liveLink: "https://www.google.com",
         frontEndLink: "https://www.google.com",
         backEndLink: "https://www.google.com",
+        resume: "https://www.google.com"
     },
     {
         id: 2,

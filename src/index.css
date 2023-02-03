@@ -59,7 +59,8 @@ body{
 }
 
 .hero-img,
-.project-right{
+.project-right,
+.about-right{
     width: 40rem;
     height: 40rem;
     overflow: hidden;
