@@ -39,7 +39,7 @@ const About = () => {
 						href="/"
 						target="_blank"
 						rel="noreferrer"
-						className="inline-block mt-20 uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-100 hover:text-black">
+						className="inline-block mt-20 uppercase py-8 px-28 border border-white/20 rounded-full hover:bg-cyan-100 hover:text-black">
 						Resume
 					</a>
 				</div>

@@ -156,3 +156,14 @@ body{
 .skill-number{
     font-size: 5rem;
 }
+
+
+textarea::-webkit-scrollbar {
+    background-color: #fff;
+    width: 1.5rem;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #22D3EE;
+}
+
