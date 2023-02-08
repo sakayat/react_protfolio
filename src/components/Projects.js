@@ -5,30 +5,20 @@ import SectionTitle from "./SectionTitle";
 const data = [
   {
     id: 1,
-    title: "TORQUE XTREME — A CAR REPAIR SERVICE",
-    img1: "https://res.cloudinary.com/dpkbthpcw/image/upload/v1675265033/Personal%20Portfolio%202/torque-1_hqxafc.jpg",
-    img2: "https://res.cloudinary.com/dpkbthpcw/image/upload/v1675265034/Personal%20Portfolio%202/torque-2_fawp9c.png",
+    title: "NFT marketplace — digital art and collectibles",
+    img1: "https://res.cloudinary.com/dluzykyma/image/upload/v1675864294/Screenshot_1_bowej9.png",
+    img2: "https://res.cloudinary.com/dluzykyma/image/upload/v1675864375/Screenshot_2_bkmdpp.png",
     description:
-      "Users can register and login through email/password, google or github account. Users can make order for a specific car repair service as well as add/edit services. User authorization has been implemented using JWT on the server side",
-    tools: [
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
-      "React.js",
-      "Firebase",
-      "Tailwind CSS",
-    ],
-    liveLink: "https://www.google.com",
-    frontEndLink: "https://www.google.com",
-    backEndLink: "https://www.google.com",
-    resume: "https://www.google.com",
+      "Users should be able to browse and view the NFTs that are available on the site, including their images, descriptions, and other relevant information, purchase NFTs directly from the site, either from the creators or from other users.",
+    tools: ["Node.js", "React.js", "Gsap", "Tailwind CSS"],
+    liveLink: "https://nftgsap.netlify.app",
+    frontEndLink: "https://github.com/sakhyat/nft_gsap",
   },
   {
     id: 2,
     title: "REACT SHOPPING — AN ELECTRONICS STORE",
-    img1: "https://res.cloudinary.com/dpkbthpcw/image/upload/v1675265034/Personal%20Portfolio%202/shopping-1_nx6sfr.jpg",
-    img2: "https://res.cloudinary.com/dpkbthpcw/image/upload/v1675265034/Personal%20Portfolio%202/shopping-2_z3boxd.jpg",
+    img1: "https://res.cloudinary.com/dluzykyma/image/upload/v1675864915/Screenshot_3_lasn3r.png",
+    img2: "https://res.cloudinary.com/dluzykyma/image/upload/v1675864948/Screenshot_4_pbc4tb.png",
     description:
       "Shopping cart functionality has been implemented using Redux Toolkit. All the product data has been served via JSON server and fetched using RTK Query. Cart items also saved into the local storage of the client’s browser",
     tools: [
@@ -38,7 +28,7 @@ const data = [
       "RTK Query",
       "Tailwind CSS",
     ],
-    liveLink: "https://www.google.com",
+    liveLink: "https://redux-ecommerce2023.netlify.app",
     frontEndLink: "https://www.google.com",
   },
 ];

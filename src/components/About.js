@@ -19,23 +19,23 @@ const About = () => {
         <div className="about-right" ref={aboutRef}></div>
         <div className="about-left">
           <p>
-            I am a MERN stack developer with a strong focus on React, Redux, and
-            Tailwind CSS. I specialize in building responsive and user-friendly
-            web applications that provide a seamless experience for the
-            end-user. With my in-depth knowledge of the latest web development
-            technologies and frameworks, I am able to create innovative
-            solutions that meet the needs of my clients. Whether it's a simple
-            website or a complex web application, I am committed to delivering
-            high-quality work that exceeds expectations.
+            I am a Front-End developer with a strong focus on React, Redux, and
+            Tailwind CSS to every project. My expertise lies in building
+            responsive and intuitive web applications that provide a smooth
+            experience for users. I stay up-to-date with the latest technologies
+            and frameworks, allowing me to deliver innovative solutions that
+            meet my clients' needs. From simple websites to complex web
+            applications, I am dedicated to delivering top-notch work that
+            surpasses expectations. My goal is to create web solutions that not
+            only meet, but exceed the requirements of my clients.
           </p>
           <p className="mt-10">
-            In addition to my expertise in the MERN stack, I also have a strong
-            background in UI design and animation. I am skilled in using the
-            GreenSock Animation Platform (GSAP) library to create dynamic and
-            engaging user interfaces. I have experience in creating smooth
-            animations and transitions that enhance the overall user experience.
-            I am also well-versed in using other design tools such as Adobe XD
-            and Figma to create wireframes and mockups.
+            I also have a strong background in UI design and animation. I am
+            skilled in using the GreenSock Animation Platform (GSAP) library to
+            create dynamic and engaging user interfaces. I have experience in
+            creating smooth animations and transitions that enhance the overall
+            user experience. I am also well-versed in using other design tools
+            such as Adobe XD and Figma to create wireframes and mockups.
           </p>
           <a
             href="/"

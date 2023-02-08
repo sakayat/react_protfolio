@@ -10,22 +10,22 @@ const data = [
   {
     id: 2,
     title: "twitter",
-    url: "https://github.com/",
+    url: "https://twitter.com/Sakhyat90",
   },
   {
     id: 3,
     title: "github",
-    url: "https://github.com/",
+    url: "https://github.com/sakhyat",
   },
   {
     id: 4,
     title: "linkedin",
-    url: "https://github.com/",
+    url: "https://www.linkedin.com/in/sakhyat-kabir-79b1a5196/",
   },
   {
     id: 5,
     title: "leetcode",
-    url: "https://github.com/",
+    url: "https://leetcode.com/sakhyat_kabir/",
   },
 ];
 
