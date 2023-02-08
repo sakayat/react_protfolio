@@ -3,7 +3,7 @@ import { useHeadlineReveal, useImageReveal } from "../hooks/gsap";
 import { useHoverEffect } from "../hooks/useHoverEffect";
 
 const data = {
-  img1: "https://res.cloudinary.com/dluzykyma/image/upload/v1675866193/grid_0_tmshwk.webp",
+  img1: "https://res.cloudinary.com/dluzykyma/image/upload/v1675867901/grid_0_dne4e4.png",
   img2: "https://res.cloudinary.com/dpkbthpcw/image/upload/v1675265034/Personal%20Portfolio%202/torque-2_fawp9c.png",
 };
 

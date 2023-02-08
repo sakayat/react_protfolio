@@ -4,7 +4,7 @@ import { useHoverEffect } from "../hooks/useHoverEffect";
 
 const data = {
   img1: "https://i.postimg.cc/x1JLF6Q9/pexels-9521671.jpg",
-  img2: "https://res.cloudinary.com/dnl3wykao/image/upload/v1675407065/pexels-anastasiya-lobanovskaya-789303_g0w785.jpg",
+  img2: "https://res.cloudinary.com/dluzykyma/image/upload/v1675867752/kabir_profile_illustrator_e79298b1-9b2a-4e28-b1c9-9a9a54a7c98d_hhcsb2.png",
 };
 
 const About = () => {
