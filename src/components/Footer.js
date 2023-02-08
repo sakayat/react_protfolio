@@ -1,12 +1,16 @@
-import React from 'react';
-
+import React, { useRef } from "react";
+import { useFooterReveal } from "../hooks/gsap";
 
 const Footer = () => {
-    return (
-        <div>
-            <p className="text-center my-20">Copyright {new Date().getFullYear()} All rights reserved</p>
-        </div>
-    );
+  const footerRef = useRef(null);
+  useFooterReveal(footerRef);
+  return (
+    <div ref={footerRef}>
+      <p className="text-center my-20">
+        Copyright {new Date().getFullYear()} All rights reserved
+      </p>
+    </div>
+  );
 };
 
 export default Footer;

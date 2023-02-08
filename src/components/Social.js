@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import { useSocialReveal } from "../hooks/gsap";
 
 const data = [
   {
@@ -29,8 +30,13 @@ const data = [
 ];
 
 const Social = () => {
+  const socialRef = useRef(null);
+  useSocialReveal(socialRef, 2);
   return (
-    <div className="social bg-black/30 text-white/30 flex fixed top-[75%] left-10 origin-left -rotate-90 gap-5 backdrop-blur-xl p-5">
+    <div
+      className="social bg-black/30 text-white/30 flex fixed top-[75%] left-10 origin-left -rotate-90 gap-5 backdrop-blur-xl p-5"
+      ref={socialRef}
+    >
       {data.map((social) => (
         <a
           href={social.url}

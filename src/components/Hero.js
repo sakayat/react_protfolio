@@ -1,30 +1,38 @@
-import React, {useRef} from 'react';
-import {useHoverEffect} from "../hook/usehoverEffect";
+import React, { useRef } from "react";
+import { useHeadlineReveal, useImageReveal } from "../hooks/gsap";
+import { useHoverEffect } from "../hooks/useHoverEffect";
 
 const data = {
-    img1: "https://cdn.pixabay.com/photo/2016/09/01/10/33/witchs-house-1635770_960_720.jpg",
-    img2: "https://cdn.pixabay.com/photo/2012/12/27/19/41/halloween-72939_960_720.jpg"
-}
+  img1: "https://res.cloudinary.com/dpkbthpcw/image/upload/v1675265033/Personal%20Portfolio%202/torque-1_hqxafc.jpg",
+  img2: "https://res.cloudinary.com/dpkbthpcw/image/upload/v1675265034/Personal%20Portfolio%202/torque-2_fawp9c.png",
+};
 
 const Hero = () => {
+  const heroImg = useRef(null);
+  const headLine1 = useRef(null);
+  const headLine2 = useRef(null);
 
-    const heroImg = useRef(null)
+  const headLines = [headLine1, headLine2];
 
-    useHoverEffect(heroImg, data.img1, data.img2)
+  useHoverEffect(heroImg, data.img1, data.img2);
+  useImageReveal(heroImg, 0.5);
+  useHeadlineReveal(headLines, 1.5);
 
-    return (
-        <div className="flex items-center justify-center relative mt-20">
-            <div className="hero-img" ref={heroImg}></div>
-            <div className="shutter shutter-left">
-                <h1 className="headline-1">front-end</h1>
-            </div>
-            <div className="shutter shutter-right">
-                <h1 className="headline-2">Developer</h1>
-            </div>
-            <div className="circle-left"></div>
-            <div className="circle-right"></div>
-        </div>
-    );
+  return (
+    <div className="flex items-center justify-center relative mt-20">
+      <div className="hero-img" ref={heroImg}></div>
+      <div className="shutter shutter-left">
+        <h1 className="headline-1" ref={headLine1}>
+          front-end
+        </h1>
+      </div>
+      <div className="shutter shutter-right">
+        <h1 className="headline-2" ref={headLine2}>
+          Developer
+        </h1>
+      </div>
+    </div>
+  );
 };
 
 export default Hero;

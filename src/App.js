@@ -3,10 +3,10 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { useSmoothScroll } from "./hook/useSmoothScroll";
+import { useSmoothScroll } from "./hooks/useSmoothScroll";
 import Social from "./components/Social";
 import CustomCurser from "./components/CustomCurser";
-import { useCustomCursor } from "./hook/useCustomCursor";
+import { useCustomCursor } from "./hooks/useCustomCursor";
 
 const App = () => {
   const outerRef = useRef(null);
@@ -16,8 +16,8 @@ const App = () => {
   return (
     <>
       <div className="container mx-auto">
-        <CustomCurser outerRef={outerRef} innerRef={innerRef} />
         <Navbar />
+        <CustomCurser outerRef={outerRef} innerRef={innerRef} />
         <Social />
         <div className="noise"></div>
         <Routes>
