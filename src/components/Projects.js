@@ -13,6 +13,7 @@ const data = [
     tools: ["Node.js", "React.js", "Gsap", "Tailwind CSS"],
     liveLink: "https://nftgsap.netlify.app",
     frontEndLink: "https://github.com/sakhyat/nft_gsap",
+    backEndLink: "https://github.com/sakhyat/nft_gsap",
   },
   {
     id: 2,

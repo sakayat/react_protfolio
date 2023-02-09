@@ -32,7 +32,7 @@ const Contact = () => {
       <SectionTitle title={"Contact"} />
       <form
         onSubmit={sendEmail}
-        className="grid grid-cols-2 gap-20 mt-40"
+        className="grid grid-cols-1 lg:grid-cols-2 gap-20 mt-40"
         ref={formRef}
       >
         <div className="form-control">
@@ -66,7 +66,7 @@ const Contact = () => {
           <input
             type="submit"
             value="send message"
-            className=" text-start bg-transparent outline-none border w-full  hover:bg-cyan-100 cursor-pointer hover:text-black py-10 px-28"
+            className="uppercase text-center bg-transparent outline-none border w-full  hover:bg-cyan-100 cursor-pointer hover:text-black py-10 px-28"
           />
         </div>
       </form>

@@ -15,7 +15,7 @@ const About = () => {
   return (
     <div className="about mt-40" id="about">
       <SectionTitle title={"About"} />
-      <div className="about-wrapper mt-40 grid grid-cols-2 gap-20">
+      <div className="about-wrapper mt-40 grid grid-cols-1 lg:grid-cols-2 gap-20">
         <div className="about-right" ref={aboutRef}></div>
         <div className="about-left">
           <p>

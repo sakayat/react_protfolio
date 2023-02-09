@@ -34,7 +34,7 @@ const Social = () => {
   useSocialReveal(socialRef, 2);
   return (
     <div
-      className="social bg-black/30 text-white/30 flex fixed top-[75%] left-10 origin-left -rotate-90 gap-5 backdrop-blur-xl p-5"
+      className="social uppercase bg-black/30 text-sm text-white/30 flex fixed top-[75%] left-10 origin-left -rotate-90 gap-5 backdrop-blur-xl p-5"
       ref={socialRef}
     >
       {data.map((social) => (
@@ -42,7 +42,7 @@ const Social = () => {
           href={social.url}
           key={social.id}
           target="_blank"
-          rel="noreferer"
+          rel="noreferrer"
           className="hover:text-cyan-400"
         >
           {social.title}
