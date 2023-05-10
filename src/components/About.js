@@ -3,8 +3,8 @@ import SectionTitle from "./SectionTitle";
 import { useHoverEffect } from "../hooks/useHoverEffect";
 
 const data = {
-  img1: "https://res.cloudinary.com/dluzykyma/image/upload/v1675871208/20230208191630__fpdl.ir__web-development-coding-programming-responsive-layout-internet-site-app-devices-creation-digital-software-mobile-platforms-computer-code-phone-concept-banner_276941-170_m4vzai.jpg",
-  img2: "https://res.cloudinary.com/dluzykyma/image/upload/v1675871168/20230208191536__fpdl.ir__software-program-development-laptop-pcr_73903-133_qnwlln.jpg",
+  img1: "https://res.cloudinary.com/dnl3wykao/image/upload/v1683732102/1674584025842_slqzgk.jpg",
+  img2: "https://res.cloudinary.com/dnl3wykao/image/upload/v1683732102/1674584025842_slqzgk.jpg",
 };
 
 const About = () => {
