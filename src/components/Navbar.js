@@ -29,7 +29,7 @@ const Navbar = ({ footerName }) => {
     >
       <div>
         <HashLink smooth to="#home" className="link-item" ref={link1Ref}>
-          {footerName ? "Go to top" : "Md. Sakhyat Kabir"}
+          {footerName ? "Go to top" : "Sakhyat Kabir"}
         </HashLink>
       </div>
       <ul className="links flex flex-col gap-3">
