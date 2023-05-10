@@ -3,8 +3,8 @@ import { useHeadlineReveal, useImageReveal } from "../hooks/gsap";
 import { useHoverEffect } from "../hooks/useHoverEffect";
 
 const data = {
-  img1: "https://res.cloudinary.com/dluzykyma/image/upload/v1675867901/grid_0_dne4e4.png",
-  img2: "https://res.cloudinary.com/dluzykyma/image/upload/v1675870970/professional-programmer-working-late-dark-office_yi0guc.jpg",
+  img1: "https://res.cloudinary.com/dnl3wykao/image/upload/v1683732102/1674584025842_slqzgk.jpg",
+  img2: "https://res.cloudinary.com/dnl3wykao/image/upload/v1683732102/1674584025842_slqzgk.jpg",
 };
 
 const Hero = () => {
@@ -21,12 +21,12 @@ const Hero = () => {
   return (
     <div className="flex items-center justify-center relative mt-20">
       <div className="hero-img" ref={heroImg}></div>
-      <div className="shutter shutter-left">
+      <div className="shutter shutter-left z-10">
         <h1 className="headline-1" ref={headLine1}>
           front-end
         </h1>
       </div>
-      <div className="shutter shutter-right">
+      <div className="shutter shutter-right z-10">
         <h1 className="headline-2" ref={headLine2}>
           Developer
         </h1>
