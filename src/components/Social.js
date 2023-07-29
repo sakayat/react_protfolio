@@ -4,28 +4,13 @@ import { useSocialReveal } from "../hooks/gsap";
 const data = [
   {
     id: 1,
-    title: "facebook",
-    url: "https://github.com/",
+    title: "GitHub",
+    url: "https://github.com/sakayat",
   },
   {
     id: 2,
-    title: "twitter",
-    url: "https://twitter.com/Sakhyat90",
-  },
-  {
-    id: 3,
-    title: "github",
-    url: "https://github.com/sakhyat",
-  },
-  {
-    id: 4,
-    title: "linkedin",
-    url: "https://www.linkedin.com/in/sakhyat-kabir-79b1a5196/",
-  },
-  {
-    id: 5,
-    title: "leetcode",
-    url: "https://leetcode.com/sakhyat_kabir/",
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/sakayatkabir/",
   },
 ];
 
