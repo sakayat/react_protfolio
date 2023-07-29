@@ -38,7 +38,7 @@ const About = () => {
             such as Adobe XD and Figma to create wireframes and mockups.
           </p>
           <a
-            href="/"
+            href="https://drive.google.com/file/d/17pmm4RM3zBZTzeuxHA4c5M36EF8bf-oR/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="inline-block mt-20 uppercase py-8 px-28 border white/20 border-1 hover:bg-cyan-100 hover:text-black"
